@@ -10,7 +10,6 @@ pipeline {
       steps {
         echo 'Test mejorado '
         sh '/bin/nc  localhost 22'
-        sh '/bin/nc  localhost 80'
       }
     }
     stage('Subir al registro de docker') {
