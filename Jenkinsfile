@@ -16,7 +16,7 @@ pipeline {
       steps {
         echo 'Push al registro de docker'
         sh 'docker tag app:test app:stable'
-        sh 'docker push app:test app:stable'
+        sh 'docker push marcogt1968/app:stable'
       }
     }
 
